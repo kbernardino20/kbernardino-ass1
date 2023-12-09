@@ -1,0 +1,147 @@
+
+    /* ABOUT US PAGE */
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+       }
+  
+       .about-KenPhoto {
+        width: 200px;
+        min-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10%;
+        
+      }
+  
+      .about-ToniPhoto {
+        width: 200px;
+        min-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10%;
+        
+      }
+  
+       .aboutWelcome {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+       }
+  
+       .AboutKenneth-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-right: 8%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+  
+      }
+  
+      .aboutKen-container1 {
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(198, 198, 198);
+  
+      }
+  
+      .aboutKen-containerText {
+        margin: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+      }
+  
+      .aboutKen-container2 {
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(198, 198, 198);
+        font-family: 'Courier New', Courier, monospace;
+        border-top-right-radius: 10%;
+        border-bottom-right-radius: 10%;
+      }
+  
+      .AboutMarietoni-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 8%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+      }
+  
+      .aboutToni-container1 {
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(252, 226, 162);
+        font-family: 'Courier New', Courier, monospace;
+        border-top-left-radius: 10%;
+        border-bottom-left-radius: 10%;
+  
+      }
+  
+      .aboutToni-containerText {
+        margin: 10%;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+      }
+  
+      .aboutToni-container2 {
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(252, 226, 162);
+        font-family: 'Courier New', Courier, monospace;
+  
+      }
+  
+      .aboutWedding-container {
+        background-color: rgb(219, 223, 223);
+        padding: 1em;
+  
+      }
+  
+      .aboutWeddingText-container {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+      
+      .aboutWeddingSDE-container {
+        text-align: center;
+        margin: 1%;
+  
+      }
+  
+      .SDEbutton {
+        background-color:rgb(224, 170, 98);
+        border: none;
+        color: black;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 16px;
+      }
+  
+      .SDEbutton:hover {
+        background-color: #444444;
+        color: white;
+      }
+  
+      .scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+        height: 25%;
+        margin-left: 8%;
+        margin-right: 8%;
+      }
+  
+  
+  
+  

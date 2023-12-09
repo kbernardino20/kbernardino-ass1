@@ -1,0 +1,136 @@
+
+/* Navigation Bar Section */
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 1em 0;
+  align-items: center;
+  border: 2px solid #000000;
+}
+
+nav > a {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-link {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: var(--second-colour);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: black;
+  text-shadow: 2px 2px #ffffff;
+}
+
+.km-logo {
+    width: 50px;
+}
+
+.photo-home {
+  width: 600px;
+  min-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2%;
+}
+
+/* Back to Top CSS - About and Tavel Journey*/
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(224, 170, 98);
+  color: black;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.back-to-top:hover {
+  background-color: #444444;
+  color: white;
+}
+
+/* CONTACT PAGE BODY CSS */
+
+    .ContactBanner{
+      display: block;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-top: 2%;
+      margin-bottom: 2%;
+      width: 40%;
+    }
+
+    .contact-container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-left: 30%;
+      margin-right: 30%;
+      margin-bottom: 2.5%;
+      opacity: 80%;
+    }
+
+     input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type=submit] {
+      background-color: #1d1d1d;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+
+    }
+
+    input[type=submit]:hover {
+      background-color: #ffffff;
+      color: #1d1d1d;
+    }
+
+/* Footer Section */
+
+
+.footericon {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.footericon:hover {
+    opacity: 0.7;
+}
+
+footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  padding: 0.1em 0;
+}
+
+
+

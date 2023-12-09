@@ -1,0 +1,106 @@
+    /* TRAVEL JOURNEY PAGE BODY CSS */
+
+    #mySidenav a {
+        position: fixed;
+        left: -200px;
+        transition: 0.3s;
+        padding: 15px;
+        width: 250px;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        border-radius: 0 5px 5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid #000000;
+      }
+
+      #mySidenavActive a {
+        position: fixed;
+        left: 0px;
+        padding: 15px;
+        width: 250px;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        border-radius: 0 5px 5px 0;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 2px solid #000000;
+      }
+
+      #mySidenav a:hover {
+        left: 0;
+      }
+
+      #phTraNav {
+        top: 200px;
+        background-color: #ffffff;
+      }
+
+      #sgTraNav {
+        top: 260px;
+        background-color: #f3e521;
+      }
+
+      #myTraNav {
+        top: 320px;
+        background-color: #0300b9;
+      }
+
+      #auTraNav {
+        top: 380px;
+        background-color: #ff2424
+      }
+    
+    .phTravel-container {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: justify;
+        margin-left: 25%;
+        margin-right: 25%;
+     }
+
+     .travel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgb(219, 223, 223);
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .travel-gallery {
+      margin: 25px;
+      border: 1px solid #ccc;
+      width: 180px;
+      align-items: center;
+      background-color: #ffffff;
+    }
+
+    .travel-gallery:hover {
+      border: 2px solid #000000;
+      opacity: 50%;
+    }
+
+    .travel-gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    table {
+      font-family: 'Courier New', Courier, monospace;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      border: 1px solid #000000;
+      text-align: left;
+      padding: 8px;
+      margin: 0.5%;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #dddddd;
+    }
